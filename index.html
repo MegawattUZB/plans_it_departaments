@@ -89,8 +89,7 @@
 			        <div class="card-header">Инициатор: ${request['Инициатор']}</div>
 			        <div class="card-body">
 			            <div><span class="label">Отдел:</span><span class="label-value">${request['Отдел']}</span></div>
-			            <div><span class="label">Ответственный:</span><span class="label-value">${request['Ответственный'] ? request['Ответственный'] : '-'}</span></div>
-			            <div><span class="label">Крайний срок:</span><span class="label-value">${formatDate(request['Крайний срок'])}</span></div>
+			            <div><span class="label">Ответственный:</span><span class="label-value">${request['Ответственный'] ? request['Ответственный'] : 'Не назначен'}</span></div>			            <div><span class="label">Крайний срок:</span><span class="label-value">${formatDate(request['Крайний срок'])}</span></div>
 			            <div><span class="label">Тема обращения:</span><span class="label-value">${request['Тема обращения']}</span></div>
 			            <div><span class="label">Описание задачи / проблемы:</span><span class="label-value">${request['Описание задачи / проблемы']}</span></div>
 			        </div>
